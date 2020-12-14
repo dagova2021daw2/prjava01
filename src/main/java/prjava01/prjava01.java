@@ -10,6 +10,7 @@ public class prjava01 {
 
     /**
      * @param args the command line arguments
+     * @throws java.io.IOException
      */
     public static void main(String[] args) throws IOException {
         File f = new File("fitxer.html");
@@ -27,6 +28,8 @@ public class prjava01 {
             bw.write("  </head>");
             bw.newLine();
             bw.write("  <body>");
+            bw.newLine();
+            bw.write(" <h1>DAW2 m08uf4eac1</h1>");
             bw.newLine();
             bw.write("    Nova p&agrave;gina web");
             bw.newLine();
